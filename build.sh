@@ -18,7 +18,7 @@ arch="$(uname -m)"
 sfs_comp="xz"
 sfs_opts="-Xbcj x86 -b 512k -Xdict-size 512k"
 
-consoles='console=ttyS0,115200 console=tty0'
+consoles='console=ttyS1,115200 console=tty0'
 verbose=""
 
 umask 0022
